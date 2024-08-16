@@ -1,5 +1,4 @@
 % WM surround supression task
-% By Ke Jia 2022/07/12 09:36
 
 %% check parameters used
 if exist([CurrDir '\Results\WMSS\' SubjID '\' SubjID '_results_sess' num2str(sess_num) '_run' num2str(run_num) '.mat'],'file')
@@ -299,7 +298,7 @@ end
        
 %% save the data
 resultsDir = [CurrDir '\Results\WMSS\' SubjID '\'];
-if ~isdir(resultsDir)                                                       %isder和mkder可以用来创建新文件夹
+if ~isdir(resultsDir)                                                       %isder鍜宮kder鍙互鐢ㄦ潵鍒涘缓鏂版枃浠跺す
     mkdir(resultsDir);
 end
 
